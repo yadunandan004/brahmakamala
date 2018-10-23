@@ -1,0 +1,49 @@
+.nav-bar{
+	position: fixed;
+    top: 0;
+    width: 100%;
+	background-color:#FFFDE7;
+	font-family: "Courier New", Lucida Console, Monospace;
+}
+.nav-bar .menu-title{
+	margin-top:1vw;
+	margin-bottom:1vw;
+	font-size:1.75em;
+	text-align:center;
+	color:#E65100;
+	font-style:bold;
+}
+.nav-bar ul {
+    list-style-type: none;
+		margin-left:auto;
+    padding: 0;
+    overflow: hidden;
+    width:100%;
+}
+
+.nav-bar li {
+    float: left;
+	margin-left:5px;
+	display:block;
+	width:20%;
+}
+
+.nav-bar li a {
+    display: block;
+	color:#F4511E;
+    text-align: center;
+    padding-top:1vw;
+	 padding-bottom:1vw;
+    text-decoration: none;
+		border:solid 2px #E65100;
+	border-radius:10px;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav-bar li a:hover {
+    background-color: #111;
+}
+.nav-bar .active {
+    background-color: #424242;
+    color: #FFFF00;
+}
